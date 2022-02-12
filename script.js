@@ -1,8 +1,8 @@
 const start = document.querySelector('#start'),
       stop = document.querySelector('#stop'),
       timers = document.querySelector('#timers'),
-      ti = document.querySelector('#ti');
-///////////////////////////
+      timerShow = document.querySelector('#ti');
+/////////////Часы//////////////
       let x = ()=>{
          let d = new Date();
          let h = d.getHours();
@@ -13,6 +13,4 @@ const start = document.querySelector('#start'),
          timers.textContent = h+':'+m+':'+s;
       }
       setInterval(x,1000)
-//////////////////////////
-
-    
+////////////Таймер//////////////
